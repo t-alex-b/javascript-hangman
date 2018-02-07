@@ -183,8 +183,7 @@ window.onload = function () {
   play = function () {
     categories = [
         ["trucks", "hardware", "bearings", "deck"],
-        ["fifth-element", "death-wish", "titanic", "feivel-goes-west", "dead-alive"],
-        ["manchester", "milan", "madrid", "amsterdam", "prague"]
+        ["fifth-element", "death-wish", "titanic", "feivel-goes-west", "dead-alive"]
     ];
 
     chosenCategory = categories[Math.floor(Math.random() * categories.length)];
@@ -211,8 +210,7 @@ window.onload = function () {
 
       hints = [
         ["Used to turn the skateboard", "Anchor the trucks to the skateboard", "Allow the skateboard wheels to roll", "The part of the skateboard you stand on"],
-        ["Science-Fiction action-film", "1974 American action drama", "Historical drama", "Animated Mouse Sequel", "zombie baby"],
-        ["Northern city in the UK", "Home of AC and Inter", "Spanish capital", "Netherlands capital", "Czech Republic capital"]
+        ["Science-Fiction action-film", "1974 American action drama", "Historical drama", "Animated Mouse Sequel", "zombie baby"]
     ];
 
     var categoryIndex = categories.indexOf(chosenCategory);
